@@ -1,9 +1,0 @@
-/h/vnguye04/comp15/proj2/unittests/input1.txt:1: Dynamic
-/h/vnguye04/comp15/proj2/unittests/input1.txt:7: dynamic array Dynamic.
-/h/vnguye04/comp15/proj2/unittests/input1.txt:2: DynAmiC
-/h/vnguye04/comp15/proj2/unittests/input1.txt:3: dynamic
-/h/vnguye04/comp15/proj2/unittests/input1.txt:5: dynamic dynamic
-/h/vnguye04/comp15/proj2/unittests/input1.txt:6: DynamiC dynamic
-/h/vnguye04/comp15/proj2/unittests/input1.txt:7: dynamic array Dynamic.
-/h/vnguye04/comp15/proj2/unittests/input1.txt:8: dynamic!!! Array array.
-/h/vnguye04/comp15/proj2/unittests/input1.txt:6: DynamiC dynamic
