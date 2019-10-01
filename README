@@ -5,17 +5,6 @@
 *
 ******************************************************************************
 
-A small note to my grader: 
-
-Hi! I know I talked to one TA about this, so I just want to make sure that you 
-don't miss this ! In the grading of my StringProcessing.cpp, I got a notice 
-that my cpp file just echos back the input instead of parsing special characters. 
-I checked my code and it removes special characters okay. Hope that you can
-double check this !
-
-Best,
-Viet.
-
 ***************
 COMPILE / RUN *
 ***************
@@ -151,28 +140,4 @@ Opening files and subdirectory
 
 Regarding openning files and directory, I tested it with my unittests folder
 with an unittest subdirectory. 
-
-***************
-Expand function
-***************
-Expand is a private function so it is a little bit harder for me to test this. 
-I set my INITIAL_CAPACITY constant to 11, and check on my small unittest files. 
-Generally, I will have a cerr statement to see how many time the hash table is
-expanded. Besides, on a small directory, before deallocating old data, I will 
-use a word, rehash it with the old and new capacity, and test if we can get the
-same word in the indices in 2 hash tables. 
-General idea: 
-	string test = "..." (my example string with a small input file)
-	// index with old hash table size
-	int old_index = hash<string>{}(s) % capacity;
-	// increase capacity
-	capacity *= 5/2;
-	// index with new hash table size
-	int new_index = hash<string>{}(s) % capacity;
-	// allocate memory with new capacity
-	vector<Entry> *new_table = new vector<Entry>[capacity];
-	// then copy data ...
-	// check if hash_table[old_index][0].key == new_table[new_index][0].key
-	=> index 0 because my input only include one Entry with different variant 
-	for simplified testing (i.e Dynamic dynaMiC DyNAmiC! dynamic)
 
